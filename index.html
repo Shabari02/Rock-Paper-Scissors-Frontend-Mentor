@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!--Link css-->
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Main page header  -->
+      <header class="header">
+        <img class="logo" src="images/logo.svg" alt="logo.png" />
+        <div class="score">
+          <div class="score_title">SCORE</div>
+          <div class="score_num">0</div>
+        </div>
+      </header>
+      <!-- Game -->
+      <section class="game">
+        <button class="choice-btn" data-choice="paper">
+          <div class="choice paper">
+            <img src="./images/icon-paper.svg" alt="paper.svg" />
+          </div>
+        </button>
+        <button class="choice-btn" data-choice="scissors">
+          <div class="choice scissors">
+            <img src="./images/icon-scissors.svg" alt="scissors.svg" />
+          </div>
+        </button>
+        <button class="choice-btn" data-choice="rock">
+          <div class="choice rock">
+            <img src="./images/icon-rock.svg" alt="rock.svg" />
+          </div>
+        </button>
+      </section>
+    </div>
+    <section class="results hidden">
+      <h2 class="results_heading">You picked</h2>
+      <h2 class="results_heading">The house picked</h2>
+      <div class="results_result"></div>
+      <div class="results_winner hidden">
+        <h3 class="results_text"></h3>
+        <button class="play-again">Play again</button>
+      </div>
+      <div class="results_result"></div>
+    </section>
+    <button class="rules-btn" tabindex="1">rules</button>
+    <!-- Modal -->
+    <div class="modal">
+      <div class="modal_container">
+        <header class="modal_header">
+          <div class="modal_heading">rules</div>
+          <button class="close-btn">
+            <img src="./images/icon-close.svg" alt="close.svg" />
+          </button>
+        </header>
+        <img src="./images/image-rules.svg" alt="rules.svg" class="rules-img" />
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Shabari</a>
+      </div>
+    </footer>
+    <!--Link Js-->
+    <script src="app.js"></script>
+  </body>
+</html>
