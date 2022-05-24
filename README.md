@@ -1,6 +1,6 @@
 # Frontend Mentor - Rock, Paper, Scissors
 
-# Click <a href="https://shabari02.github.io/Rock-Paper-Scissors-Frontend-Mentor/">Here</a> to play 😀 
+# Click <a href="https://shabari02.github.io/Rock-Paper-Scissors-Frontend-Mentor/">Here</a> to play 😀 (Desktop version)
 
 ![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)
 
